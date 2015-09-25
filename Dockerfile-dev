@@ -1,0 +1,9 @@
+FROM golang:1.5.1
+
+RUN mkdir /go/src/wall
+WORKDIR /go/src/wall
+
+RUN go get github.com/tools/godep
+
+COPY Godeps /go/src/wall/Godeps
+RUN /go/bin/godep restore

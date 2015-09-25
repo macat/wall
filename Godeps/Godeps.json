@@ -1,0 +1,14 @@
+{
+	"ImportPath": "wall",
+	"GoVersion": "go1.5.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/garyburd/redigo/internal",
+			"Rev": "46806c72355edd62250ac37a8b1a565618b39e22"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/redis",
+			"Rev": "46806c72355edd62250ac37a8b1a565618b39e22"
+		}
+	]
+}
